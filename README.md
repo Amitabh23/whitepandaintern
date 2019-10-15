@@ -13,3 +13,16 @@ This system have the following three features –
 4. Using Car Model (only) show the details of a particular car and its currently active booking.
 
 5. Update/Delete a Car from the system and ensure that the car should is not already booked.
+
+# Contents
+### 1.Build
+This folder contains all the backend compiled files with a .class format
+### 2. src
+This file contains all the backend files used for renting and login purposes by the user
+### 3.Webcontent
+This file contains front end jsp and template files
+
+## Note: 
+- There are some services which might not beactive such as OTP sending app as it requires third party integration.
+- hibernate.cfg.xml file is not included due to privacy issues, which is easily available on the internt for connecting to the database.
+This file must be added in the src folder
